@@ -1,0 +1,10 @@
+CREATE TABLE transactions (
+  id SERIAL PRIMARY KEY,
+  campaign_id INT DEFAULT NULL,
+  user_id INT DEFAULT NULL,
+  amount INT DEFAULT NULL,
+  status VARCHAR(255) DEFAULT NULL,
+  code VARCHAR(255) DEFAULT NULL,
+  created_at TIMESTAMP DEFAULT NULL,
+  updated_at TIMESTAMP DEFAULT NULL
+);
